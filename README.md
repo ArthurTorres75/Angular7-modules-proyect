@@ -1,8 +1,6 @@
 # Angular7-bootstrap4
 # Angular7-modules-proyect
-tablero-material-angular6
-
-Este proyecto fue generado con Angular CLI versión 6.0.8.
+Este proyecto fue generado con Angular CLI versión 7.1.4
 
 
 Servidor de desarrollo
