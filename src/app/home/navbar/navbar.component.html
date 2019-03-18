@@ -1,0 +1,18 @@
+<mat-toolbar color="primary" style="border-bottom:1px solid #000000">
+    <!-- <span class="font-logo">Puck</span>
+    &nbsp;
+    <i class="fas fa-truck animated fadeInLeft delay-2s"></i> -->
+    <div aligne="center">
+      <img class="image image-responsive img-fluid logoimg" src="/assets/images/slark.png">
+    </div> 
+    &nbsp;&nbsp; &nbsp;&nbsp;
+    <button id="#boton" type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle(); mobileS5()">
+      <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+    </button>
+    <span>
+      <!--here comes routing title -->
+      {{ getTitle() }}
+    </span>
+    <span class="zippy__spacer"></span>
+  </mat-toolbar>
+  
